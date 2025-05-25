@@ -1,0 +1,47 @@
+<!-- HTML FILE: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NewStoriesAndTales</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lora&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>NewStoriesAndTales</h1>
+  </header>
+
+  <div class="container">
+    <div class="filters">
+      <select id="genreFilter">
+        <option value="">All Genres</option>
+        <option value="Fantasy">Fantasy</option>
+        <option value="Mystery">Mystery</option>
+        <option value="Sci-Fi">Sci-Fi</option>
+        <option value="Romance">Romance</option>
+      </select>
+
+      <select id="lengthFilter">
+        <option value="">All Lengths</option>
+        <option value="Short">Short</option>
+        <option value="Medium">Medium</option>
+        <option value="Long">Long</option>
+      </select>
+    </div>
+
+    <div class="grid" id="storyGrid"></div>
+  </div>
+
+   <footer>
+    <p style="text-align: center; padding: 1rem; background-color: var(--primary); color: white; font-family: 'Roboto', sans-serif;">Made by N Teja Reddy</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
